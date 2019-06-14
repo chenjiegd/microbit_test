@@ -4,7 +4,7 @@
     "description": "test for microbit",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "neopixel": "github:kittenbot/pxt-neopixel#v0.6.12"
     },
     "files": [
         "README.md",
@@ -13,6 +13,6 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
+    "public": true,
     "license": "MIT"
 }
